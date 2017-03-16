@@ -1,4 +1,6 @@
 # Japic
+[![Build Status](https://travis-ci.org/naoki-k/japic.svg?branch=master)](https://travis-ci.org/naoki-k/japic)
+
 [Jleague API (unofficial)](http://labs.s-koichi.info/blog/archives/2014/02/08/1759-602.php) Client library implemented by ruby
 
 ## Installation
