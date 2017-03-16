@@ -1,4 +1,6 @@
+require 'japic/client'
+require 'japic/response/base'
+require 'japic/response/ranking'
+require 'japic/response/schedule'
+require 'japic/url'
 require 'japic/version'
-
-module Japic
-end
