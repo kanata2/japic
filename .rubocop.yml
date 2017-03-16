@@ -1,8 +1,15 @@
 AllCops:
+  TargetRubyVersion: 2.4
   Exclude:
     - 'japic.gemspec'
     - 'bin/*'
     - 'Rakefile'
 
+Lint/AmbiguousOperator:
+  Enabled: false
+
 Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
   Enabled: false
