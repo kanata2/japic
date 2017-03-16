@@ -1,11 +1,5 @@
-# [wip] Japic
+# Japic
 [Jleague API (unofficial)](http://labs.s-koichi.info/blog/archives/2014/02/08/1759-602.php) Client library implemented by ruby
-
-## TODO
-- [ ] error handling
-- [ ] prepare an interface easy to use
-- [ ] document of usage
-- [ ] test
 
 ## Installation
 
@@ -25,9 +19,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+client = Japic::Client.new
+
+# if you want schedule( or result)
+schedule = client.schedule(year: 2017, league: 'j1')
+
+# or if you want ranking of n th section
+ranking = client.ranking(year: 2017, league: 'j2', section: 1)
+```
+
+## TODO
+
+- [ ] error handling
+- [x] prepare an interface easy to use
+- [ ] document of usage
+- [ ] test
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Naoki Kanatani/japic.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/naoki-k/japic
