@@ -16,15 +16,15 @@ module Japic
       end
 
       def year
-        body.dig('year')
+        body['year']
       end
 
       def league
-        body.dig('league')
+        body['league']
       end
 
       def count
-        body.dig('count')
+        body['count']
       end
     end
   end

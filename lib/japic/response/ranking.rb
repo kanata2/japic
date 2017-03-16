@@ -2,11 +2,13 @@ module Japic
   module Response
     class Ranking < Base
       def table
-        body.dig('tables')
+        body['tables']
       end
 
-      def order(n)
-        table.fetch(n-1)
+      def rank_of(n)
+        rank = table.fetch(n - 1)
+
+        ::Japic::Rank.new(rank)
       end
     end
   end
