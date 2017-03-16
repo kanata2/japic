@@ -1,5 +1,3 @@
-require 'time'
-
 module Japic
   class Match
     MATCH_DATA_TYPES = %w(
