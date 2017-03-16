@@ -5,6 +5,7 @@
 - [ ] error handling
 - [ ] prepare an interface easy to use
 - [ ] document of usage
+- [ ] test
 
 ## Installation
 
